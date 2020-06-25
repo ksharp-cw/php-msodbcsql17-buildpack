@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "copying odbcinst.ini"
+cp odbcinst.ini "${BUILD_DIR}/.apt/usr/lib/odbc/conf/odbcinst.ini"
+echo "copied odbcinst.ini"
