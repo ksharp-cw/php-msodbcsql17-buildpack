@@ -5,3 +5,7 @@ mkdir -p "${BUILD_DIR}/.apt/usr/lib/odbc/conf/"
 echo "copying odbcinst.ini"
 cp odbcinst.ini "${BUILD_DIR}/.apt/usr/lib/odbc/conf/odbcinst.ini"
 echo "copied odbcinst.ini"
+
+mkdir -p "${BUILD_DIR}/.profile.d"
+cp .profile.d/configure.sh "${BUILD_DIR}/.profile.d"
+echo "copied profile.d"
